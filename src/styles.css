@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+td{
+    border: 5px solid violet;
+}
+table{
+    background-color: burlywood
+}
+th{color: red}
+th{border: 2px solid blue}
+th{background-color: aqua}
+h2{
+    color: darkmagenta
+}

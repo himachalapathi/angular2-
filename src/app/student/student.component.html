@@ -1,0 +1,20 @@
+<table style="width:70%">
+    <thead>
+        <tr>
+            <th> Id</th>
+           <th>Name</th>
+           <th>fee</th>
+           <th>dob</th>
+           <th>address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let s of stu">
+            <td>{{s.id}}</td>
+            <td>{{s.firstname | uppercase}}</td>
+            <td>{{s.fee }}</td>
+            <td>{{s.dob | date }}</td>
+            <td>{{s.address}}</td>
+        </tr>
+    </tbody>
+</table>
